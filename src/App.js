@@ -18,9 +18,9 @@ class App extends Component {
     ); 
   }
 
-  updateInfo(e){
+  updateInfo(){
   	this.setState({
-  		info: e.target.checked
+  		info: !this.state.info
   	});
   }
 }
